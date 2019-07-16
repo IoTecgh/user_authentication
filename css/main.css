@@ -172,10 +172,10 @@ iframe {
   position: relative;
   top:10px;
   font-family: Raleway-SemiBold;
-  font-size: 13px;
+  font-size: 15px;
   color: #555555;
   line-height: 1.4;
-  text-transform: uppercase;
+ 
 }
 
 .txt2 {
@@ -219,10 +219,13 @@ iframe {
 
 
 .wrap-login100 {
-  width: 700px;
+  width: 400px;
   background: #fff;
   border-radius: 10px;
   position: relative;
+  left:-30px;
+  height: 350px;
+  top:-20px;
 }
 
 
@@ -246,10 +249,36 @@ iframe {
   border: 1px solid #e6e6e6;
   border-radius: 2px;
 }
+.login-link{
+  width: 400px;
+  background: #fff;
+  border-radius: 10px;
+  position: relative;
+  top:50px;
+  left:-35px ;
+  height: 70px;
+  text-align: center;
+  margin: 0 auto;
+  background-color:#DCDCDC;
+  
+  
+
+
+}
+#sign{
+  position: relative;
+  top:20px;
+  font-size: 18px;
+}
+#sign-href{
+  font-size: 16px;
+  color: blue;
+
+}
 
 .register-link{
   position: relative;
-  top:20px;
+  top:10px;
   width: 100%;
   font-family: Poppins-Regular;
   font-size: 13px;
@@ -416,13 +445,39 @@ iframe {
   display: flex;
   flex-wrap: wrap;
 }
+#login_itle{
+  position: relative;
+  top:-250px;
+  right: -200px;
+}
+#ad{
+  color:white;
+  position: relative;
+  top:10px;
+}
+#circle{
+  position: relative;
+  top:-250px;
+  height:50px;
+  width:50px;
+  right: -200px;
+  border-radius: 500px;
+  -webkit-border-radius:500px;
+  background-color: #000080;
+  text-align: center
+
+}
+
+
 
 .login100-form-btn {
   font-family: Raleway-Bold;
+  position: relative;
+  top:-20px;
   font-size: 16px;
   color: #fff;
   line-height: 1.2;
-
+  width: 100%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -432,9 +487,9 @@ iframe {
   align-items: center;
   padding: 0 20px;
   min-width: 150px;
-  height: 40px;
+  height: 35px;
   background-color: #000080;
-  border-radius: 27px;
+  border-radius: 7px;
 
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
@@ -461,7 +516,7 @@ iframe {
   color: #a94442;
   background-color: #f2dede;
   border-color: #ebccd1;
-  padding:1px 20px 1px 20px;
+  font-size: 13px;
 }
 
 .alert-validate::before {
